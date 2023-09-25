@@ -3,6 +3,7 @@ import "./App.css";
 import HelloWorld from "./components/HelloWorld";
 import Capture from "./components/Capture";
 import Custom from "./components/Custom";
+import Props from "./components/Props";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       </div>
       <div className="w-full h-screen">
         <Custom />
+      </div>
+      <div className="w-full h-screen">
+        <Props />
       </div>
     </section>
   );
