@@ -4,6 +4,7 @@ import HelloWorld from "./components/HelloWorld";
 import Capture from "./components/Capture";
 import Custom from "./components/Custom";
 import Props from "./components/Props";
+import Maps from "./components/Maps";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       </div>
       <div className="w-full h-screen">
         <Props />
+      </div>
+      <div className="w-full h-screen">
+        <Maps />
       </div>
     </section>
   );
