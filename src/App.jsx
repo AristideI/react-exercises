@@ -5,6 +5,8 @@ import Capture from "./components/Capture";
 import Custom from "./components/Custom";
 import Props from "./components/Props";
 import Maps from "./components/Maps";
+import Maps2 from "./components/Maps2";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -23,6 +25,12 @@ function App() {
       </div>
       <div className="w-full h-screen">
         <Maps />
+      </div>
+      <div className="w-full h-screen">
+        <Maps2 />
+      </div>
+      <div className="w-full h-screen">
+        <Form />
       </div>
     </section>
   );
