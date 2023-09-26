@@ -8,6 +8,7 @@ import Maps from "./components/Maps";
 import Maps2 from "./components/Maps2";
 import Form from "./components/Form";
 import JSON from "./components/JSON";
+import API from "./components/API";
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
       </div>
       <div className="w-full h-screen">
         <JSON />
+      </div>
+      <div className="w-full h-screen">
+        <API />
       </div>
     </section>
   );

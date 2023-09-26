@@ -30,3 +30,22 @@
     rotate: 0;
   }
 }
+
+.robot {
+  z-index: 5;
+  transition: all 2s;
+}
+.diva {
+  z-index: 1;
+  transform: rotateY(180deg);
+  transition: all 2s;
+}
+
+.grouper:hover .robot {
+  z-index: 4;
+  transform: rotateY(180deg);
+}
+.grouper:hover .diva {
+  z-index: 6;
+  transform: rotateZ(0);
+}
