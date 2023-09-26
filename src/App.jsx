@@ -7,6 +7,7 @@ import Props from "./components/Props";
 import Maps from "./components/Maps";
 import Maps2 from "./components/Maps2";
 import Form from "./components/Form";
+import JSON from "./components/JSON";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
       </div>
       <div className="w-full h-screen">
         <Form />
+      </div>
+      <div className="w-full h-screen">
+        <JSON />
       </div>
     </section>
   );
