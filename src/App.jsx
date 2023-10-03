@@ -22,6 +22,15 @@ function App() {
       <div className="w-full h-screen">
         <Custom />
       </div>
+      <div className="w-full h-screen">
+        <Props />
+      </div>
+      <div className="w-full h-screen">
+        <Maps />
+      </div>
+      <div className="w-full h-screen">
+        <Maps2 />
+      </div>
     </section>
   );
 }
