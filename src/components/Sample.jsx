@@ -1,7 +1,6 @@
 function pro() {
   return (
     <>
-      
       <div className="w-full h-screen">
         <Props />
       </div>
