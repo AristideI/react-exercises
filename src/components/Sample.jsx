@@ -1,15 +1,7 @@
 function pro() {
   return (
     <>
-      <div className="w-full h-screen">
-        <HelloWorld />
-      </div>
-      <div className="w-full h-screen">
-        <Capture />
-      </div>
-      <div className="w-full h-screen">
-        <Custom />
-      </div>
+      
       <div className="w-full h-screen">
         <Props />
       </div>
